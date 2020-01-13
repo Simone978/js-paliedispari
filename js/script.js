@@ -13,7 +13,7 @@ if (risultato== true){
 function palindroma(word){
   var parolaContrario ='';
   for (var i = parola.length - 1; i >= 0; i--) {
-    parolaContrario+=parola[i];
+    parolaContrario += parola[i];
   }
   if(parola == parolaContrario){
     parolaContrario = true;
