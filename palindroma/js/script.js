@@ -12,10 +12,10 @@ if (risultato== true){
 
 function palindroma(word){
   var parolaContrario ='';
-  for (var i = parola.length - 1; i >= 0; i--) {
-    parolaContrario += parola[i];
+  for (var i = word.length - 1; i >= 0; i--) {
+    parolaContrario += word[i];
   }
-  if(parola == parolaContrario){
+  if(word == parolaContrario){
     parolaContrario = true;
   }else{
     parolaContrario = false;
